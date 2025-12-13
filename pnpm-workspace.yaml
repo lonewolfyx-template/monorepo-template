@@ -1,3 +1,20 @@
+catalogMode: prefer
+shellEmulator: true
+trustPolicy: no-downgrade
+
 packages:
   - packages/*
   - docs
+
+catalog:
+  '@antfu/eslint-config': ^6.6.1
+  '@lonewolfyx/tsconfig': ^0.0.6
+  '@types/node': ^25.0.1
+  eslint: ^9.39.2
+  lint-staged: ^16.2.7
+  picocolors: ^1.1.1
+  simple-git-hooks: ^2.13.1
+  tsdown: ^0.17.3
+  tsx: ^4.21.0
+  typescript: ^5.9.3
+  yaml-eslint-parser: ^1.3.2

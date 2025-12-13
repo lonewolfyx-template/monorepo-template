@@ -4,6 +4,12 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    picocolors:
+      specifier: ^1.1.1
+      version: 1.1.1
+
 importers:
 
   .:
@@ -23,6 +29,9 @@ importers:
       lint-staged:
         specifier: ^16.2.7
         version: 16.2.7
+      picocolors:
+        specifier: 'catalog:'
+        version: 1.1.1
       simple-git-hooks:
         specifier: ^2.13.1
         version: 2.13.1
