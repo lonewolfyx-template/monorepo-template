@@ -1,7 +1,10 @@
 catalogMode: prefer
-shellEmulator: true
-trustPolicy: no-downgrade
 
+cleanupUnusedCatalogs: true
+
+shellEmulator: true
+
+trustPolicy: no-downgrade
 packages:
   - playground
   - docs
@@ -16,6 +19,14 @@ catalog:
   lint-staged: ^16.2.7
   picocolors: ^1.1.1
   simple-git-hooks: ^2.13.1
-  tsdown: ^0.17.3
+  tsdown: 0.17.4
   tsx: ^4.21.0
   typescript: ^5.9.3
+
+catalogs:
+  tools:
+    cac: ^6.7.14
+    defu: ^6.1.4
+    find-up: ^8.0.0
+    glob: ^13.0.0
+    jiti: ^2.6.1
