@@ -1,5 +1,4 @@
 import antfu from '@antfu/eslint-config'
-import yamlParser from 'yaml-eslint-parser'
 
 export default antfu({
     type: 'lib',
@@ -17,12 +16,9 @@ export default antfu({
         'antfu/top-level-function': 'off',
         'regexp/no-unused-capturing-group': 'off',
     },
-}, {
-    files: ['**/*.yml', '**/*.yaml'],
-    languageOptions: {
-        parser: yamlParser,
-    },
-    rules: {
-        'yaml/indent': ['error', 2],
+    yaml: {
+        overrides: {
+            'yaml/indent': ['error', 2],
+        },
     },
 })
