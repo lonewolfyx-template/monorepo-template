@@ -6,47 +6,71 @@ settings:
 
 catalogs:
   default:
+    '@antfu/eslint-config':
+      specifier: ^6.6.1
+      version: 6.6.1
+    '@lonewolfyx/tsconfig':
+      specifier: ^0.0.6
+      version: 0.0.6
+    '@types/node':
+      specifier: ^25.0.1
+      version: 25.0.1
+    eslint:
+      specifier: ^9.39.2
+      version: 9.39.2
+    lint-staged:
+      specifier: ^16.2.7
+      version: 16.2.7
     picocolors:
       specifier: ^1.1.1
       version: 1.1.1
+    simple-git-hooks:
+      specifier: ^2.13.1
+      version: 2.13.1
+    tsdown:
+      specifier: ^0.17.3
+      version: 0.17.3
+    tsx:
+      specifier: ^4.21.0
+      version: 4.21.0
+    typescript:
+      specifier: ^5.9.3
+      version: 5.9.3
 
 importers:
 
   .:
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^6.6.1
+        specifier: 'catalog:'
         version: 6.6.1(@vue/compiler-sfc@3.5.25)(eslint@9.39.2)(typescript@5.9.3)
       '@lonewolfyx/tsconfig':
-        specifier: ^0.0.6
+        specifier: 'catalog:'
         version: 0.0.6(typescript@5.9.3)
       '@types/node':
-        specifier: ^25.0.1
+        specifier: 'catalog:'
         version: 25.0.1
       eslint:
-        specifier: ^9.39.2
+        specifier: 'catalog:'
         version: 9.39.2
       lint-staged:
-        specifier: ^16.2.7
+        specifier: 'catalog:'
         version: 16.2.7
       picocolors:
         specifier: 'catalog:'
         version: 1.1.1
       simple-git-hooks:
-        specifier: ^2.13.1
+        specifier: 'catalog:'
         version: 2.13.1
       tsdown:
-        specifier: ^0.17.3
+        specifier: 'catalog:'
         version: 0.17.3(synckit@0.11.11)(typescript@5.9.3)
       tsx:
-        specifier: ^4.21.0
+        specifier: 'catalog:'
         version: 4.21.0
       typescript:
-        specifier: ^5.9.3
+        specifier: 'catalog:'
         version: 5.9.3
-      yaml-eslint-parser:
-        specifier: ^1.3.2
-        version: 1.3.2
 
 packages:
 
@@ -1722,6 +1746,7 @@ packages:
   tsdown@0.17.3:
     resolution: {integrity: sha512-bgLgTog+oyadDTr9SZ57jZtb+A4aglCjo3xgJrkCDxbzcQl2l2iDDr4b06XHSQHwyDNIhYFDgPRhuu1wL3pNsw==}
     engines: {node: '>=20.19.0'}
+    deprecated: Including an unexpected breaking change (copy behavior)
     hasBin: true
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
