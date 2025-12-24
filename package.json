@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "packageManager": "pnpm@10.15.1",
-    "description": "pkg-placeholder",
+    "description": "_description_",
     "author": "lonewolfyx <olddrivero.king@qq.com>",
     "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
     "bugs": {
