@@ -1,10 +1,14 @@
 {
-    "name": "monorepo-template",
+    "name": "pkg-placeholder",
     "version": "0.0.0",
     "private": true,
     "packageManager": "pnpm@10.15.1",
-    "description": "monorepo-template",
+    "description": "pkg-placeholder",
     "author": "lonewolfyx <olddrivero.king@qq.com>",
+    "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
+    },
     "license": "MIT",
     "keywords": [],
     "scripts": {
